@@ -1,0 +1,77 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Trang chủ
+        link(rel="stylesheet", href="assets/css/style.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css")
+        script(src="https://cdn.tailwindcss.com")
+        script(src="tailwind.config.js") 
+    body 
+        //- Top header
+        div(class = "bg-black py-[10px]")
+            //- Container
+            div(class = "container relative")
+                //-Title
+                div(class = "text-center")
+                    span(class = "text-white font-bold mr-[5px]") Đăng ký để được giảm giá 20%.
+                    a(href="" class = "text-white underline") Đăng ký ngay
+                //-Icon
+                <i class="fa-solid fa-xmark text-white absolute right-[0px] bottom-[4px] cursor-pointer"></i>
+
+        //-Header
+        div(class = "py-[24px]")
+            //- Container
+            div(class = "container flex items-center justify-space-between")
+                //- Logo
+                div(class = "text-[32px] font-bold") 28.SHOP
+                //- List
+                nav(class = "")
+                    ul(class = "flex")
+                        li(class = "text[16px] ml-[40px] mr-[24px]")
+                            a(href="#") Giới thiệu 
+                        li(class = "text-[16px] mr-[24px]")
+                            a(href="#") Sản phẩm 
+                        li(class = "text-[16px] mr-[24px]")
+                            a(href="#") Bài viết 
+                        li(class = "text-[16px] mr-[40px]")
+                            a(href="# text-[16px]" ) Liên hệ    
+                //- Search
+                form(action="" class = "relative flex-1 mr-[40px]")
+                    input(type="text", name="" placeholder="Tìm kiếm sản phẩm..." class ="pt-[16px] pb-[16px] pl-[52px] bg-[#F0F0F0] rounded-[62px] w-full outline-0") 
+                    button(type="submit" class = "absolute left-[18px] bottom-[13px]") 
+                        <i class="fa-solid fa-magnifying-glass text-[24px]"></i>
+                //- Button
+                div(class = "")
+                    a(href="")
+                         <i class="fa-solid fa-cart-shopping text-[24px] mr-[14px]"></i>
+                    a(href="")
+                         <i class="fa-regular fa-circle-user text-[24px]"></i>
+
+        //- Section-1
+        div(class = "bg-[#F2F0F1]")
+            //- Container
+            div(class = "container")
+                //- Content
+                div(class = "w-[50%] pt-[140px] pb-[140px]")
+                    //-Title
+                    h1(class = "text-[48px] font-bold mb-[30px]") CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI.
+                    h3(class = "text-black text-opacity-60 mb-[50px]") Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong cách của bạn.
+
+                    //- Button
+                    a(href="", class = "font-medium text-white bg-black py-[16px] px-[64.5px] mb-[50px] inline-block rounded-[62px]") Xem Ngay 
+
+                    //- List
+                    ul(class = "flex text-left")
+                        li(class = "pr-[32px] border-r-[2px] border-opacity-10")
+                            h2(class = "font-bold text-[40px] m-0") 200+
+                            div(class = "text-black text-opacity-60") Thương Hiệu 
+                        li(class = "px-[32px] border-r-[2px] border-opacity-10")
+                            h2(class = "font-bold text-[40px] m-0") 2,000+
+                            div(class = "text-black text-opacity-60") Sản Phẩm Chất Lượng
+                        li(class = "pl-[32px]")
+                            h2(class = "font-bold text-[40px] m-0") 30,000+
+                            div(class = "text-black text-opacity-60") Khách Hàng
+                //- Images
+                div(class = "w-[50%]")
